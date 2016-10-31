@@ -1,0 +1,186 @@
+.sort1 {
+	animation: switch 10s ease 5s infinite;
+	-webkit-animation: switch 10s ease 5s infinite;
+	-moz-animation: switch 10s ease 5s infinite;
+	-o-animation: switch 10s ease 5s infinite
+}
+.peimg1 {
+	animation: switch 10s ease 0s infinite;
+	-webkit-animation: switch 10s ease 0s infinite;
+	-moz-animation: switch 10s ease 0s infinite;
+	-o-animation: switch 10s ease 0s infinite
+}
+.sort2 {
+	animation: switch 12s ease 6s infinite;
+	-webkit-animation: switch 12s ease 6s infinite;
+	-moz-animation: switch 12s ease 6s infinite;
+	-o-animation: switch 12s ease 6s infinite
+}
+.peimg2 {
+	animation: switch 12s ease 0s infinite;
+	-webkit-animation: switch 12s ease 0s infinite;
+	-moz-animation: switch 12s ease 0s infinite;
+	-o-animation: switch 12s ease 0s infinite
+}
+.sort3 {
+	animation: switch 14s ease 7s infinite;
+	-webkit-animation: switch 14s ease 7s infinite;
+	-moz-animation: switch 14s ease 7s infinite;
+	-o-animation: switch 14s ease 7s infinite
+}
+.peimg3 {
+	animation: switch 14s ease 0s infinite;
+	-webkit-animation: switch 14s ease 0s infinite;
+	-moz-animation: switch 14s ease 0s infinite;
+	-o-animation: switch 14s ease 0s infinite
+}
+.sort4 {
+	animation: switch 11s ease 5.5s infinite;
+	-webkit-animation: switch 11s ease 5.5s infinite;
+	-moz-animation: switch 11s ease 5.5s infinite;
+	-o-animation: switch 11s ease 5.5s infinite
+}
+.peimg4 {
+	animation: switch 11s ease 0s infinite;
+	-webkit-animation: switch 11s ease 0s infinite;
+	-moz-animation: switch 11s ease 0s infinite;
+	-o-animation: switch 11s ease 0s infinite
+}
+.sort5 {
+	animation: switch 13s ease 6.5s infinite;
+	-webkit-animation: switch 13s ease 6.5s infinite;
+	-moz-animation: switch 13s ease 6.5s infinite;
+	-o-animation: switch 13s ease 6.5s infinite
+}
+.peimg5 {
+	animation: switch 13s ease 0s infinite;
+	-webkit-animation: switch 13s ease 0s infinite;
+	-moz-animation: switch 13s ease 0s infinite;
+	-o-animation: switch 13s ease 0s infinite
+}
+.circle2 {
+	-webkit-animation: warn 4s  ease-out 0s infinite;
+	-moz-animation: warn 4s  ease-out 0s infinite;
+	animation: warn 4s  ease-out 0s infinite;
+	-o-animation: warn 4s  ease-out 0s infinite
+}
+.circle3 {
+	-webkit-animation: warn 4s ease-out 1.3s infinite;
+	-moz-animation: warn 4s ease-out 1.3s infinite;
+	animation: warn 4s ease-out 1.3s infinite;
+	-o-animation: warn 4s ease-out 1.3s infinite
+}
+.circle4 {
+	-webkit-animation: warn 4s ease-out 2.6s infinite;
+	-moz-animation: warn 4s ease-out 2.6s infinite;
+	animation: warn 4s ease-out 2.6s infinite;
+	-o-animation: warn 4s ease-out 2.6s infinite
+}
+@-webkit-keyframes warn {
+	0% {
+		-webkit-transform: scale(1);
+		opacity: 1
+	}
+	100% {
+		-webkit-transform: scale(4);
+		opacity: 0
+	}
+}
+@-o-keyframes warn {
+	0% {
+		-o-transform: scale(1);
+		opacity: 1
+	}
+	100% {
+		-o-transform: scale(4);
+		opacity: 0
+	}
+}
+@-moz-keyframes warn {
+	0% {
+		-moz-transform: scale(1);
+		opacity: 1
+	}
+	100% {
+		-moz-transform: scale(4);
+		opacity: 0
+	}
+}
+@keyframes warn {
+	0% {
+		transform: scale(1);
+		opacity: 1
+	}
+	100% {
+		transform: scale(4);
+		opacity: 0
+	}
+}
+@-webkit-keyframes switch {
+	0% {
+		opacity: 0
+	}
+	30% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0.2
+	}
+	55% {
+		opacity: 0
+	}
+	100% {
+		opacity: 0
+	}
+}
+@-o-keyframes switch {
+	0% {
+		opacity: 0
+	}
+	30% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0.2
+	}
+	55% {
+		opacity: 0
+	}
+	100% {
+		opacity: 0
+	}
+}
+@-moz-keyframes switch {
+	0% {
+		opacity: 0
+	}
+	30% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0.2
+	}
+	55% {
+		opacity: 0
+	}
+	100% {
+		opacity: 0
+	}
+}
+@keyframes switch {
+	0% {
+		opacity: 0
+	}
+	30% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0.2
+	}
+	55% {
+		opacity: 0
+	}
+	100% {
+		opacity: 0
+	}
+}
